@@ -1,0 +1,3 @@
+[submodule "Competition/MobileFarm"]
+	path = Competition/MobileFarm
+	url = https://github.com/Dasha-kykyrys/MobileFarm
