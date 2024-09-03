@@ -1,3 +1,30 @@
 [submodule "Competition/MobileFarm"]
 	path = Competition/MobileFarm
 	url = https://github.com/Dasha-kykyrys/MobileFarm
+[submodule "Practice_05/Words-of-words"]
+	path = Practice_05/Words-of-words
+	url = https://github.com/Dasha-kykyrys/Words-of-words
+[submodule "MDK_05.02/HomeWork-9"]
+	path = MDK_05.02/HomeWork-9
+	url = https://github.com/Dasha-kykyrys/HomeWork-9
+[submodule "MDK_05.02/HomeWork-8"]
+	path = MDK_05.02/HomeWork-8
+	url = https://github.com/Dasha-kykyrys/HomeWork-8
+[submodule "MDK_05.02/Lab-20-21"]
+	path = MDK_05.02/Lab-20-21
+	url = https://github.com/Dasha-kykyrys/Lab-20-21
+[submodule "MDK_05.02/17-19"]
+	path = MDK_05.02/17-19
+	url = https://github.com/Dasha-kykyrys/17-19
+[submodule "MDK_05.02/HomeWork-6"]
+	path = MDK_05.02/HomeWork-6
+	url = https://github.com/Dasha-kykyrys/HomeWork-6
+[submodule "MDK_05.02/Lazarus_-beginning"]
+	path = MDK_05.02/Lazarus_-beginning
+	url = https://github.com/Dasha-kykyrys/Lazarus_-beginning
+[submodule "MDK_05.02/Lab-15-16"]
+	path = MDK_05.02/Lab-15-16
+	url = https://github.com/Dasha-kykyrys/Lab-15-16
+[submodule "MDK_05.02/Fractal"]
+	path = MDK_05.02/Fractal
+	url = https://github.com/Dasha-kykyrys/Fractal
