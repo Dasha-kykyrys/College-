@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="telephones.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="50"/>
+      </Unit>
+      <Unit>
+        <Filename Value="main.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Main"/>
+        <TopLine Value="78"/>
+        <CursorPos X="77" Y="92"/>
+        <UsageCount Value="50"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="edit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fEdit"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Edit"/>
+        <EditorIndex Value="1"/>
+        <CursorPos Y="4"/>
+        <UsageCount Value="50"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="enot.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fEnot"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="27" Y="30"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="edit.lfm"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="7"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="main.lfm"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="7"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="76" Column="29" TopLine="56"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="66" Column="28" TopLine="47"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="65" Column="26" TopLine="45"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="117" Column="84" TopLine="99"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="108" Column="85" TopLine="89"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="168" Column="26" TopLine="142"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="162" Column="20" TopLine="128"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="160" Column="74" TopLine="131"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="161" Column="35" TopLine="141"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="163" Column="49" TopLine="137"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="162" Column="7" TopLine="142"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="174" Column="11" TopLine="154"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="162" Column="52" TopLine="142"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="210" Column="47" TopLine="184"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="202" Column="23" TopLine="175"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="212" Column="48" TopLine="185"/>
+      </Position>
+      <Position>
+        <Filename Value="edit.pas"/>
+        <Caret Line="53" Column="21" TopLine="15"/>
+      </Position>
+      <Position>
+        <Filename Value="edit.pas"/>
+        <Caret Line="54" Column="21" TopLine="54"/>
+      </Position>
+      <Position>
+        <Filename Value="edit.pas"/>
+        <Caret Line="53" Column="21" TopLine="53"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="193" Column="6" TopLine="157"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="192" Column="6" TopLine="192"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="193" Column="6" TopLine="193"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="192" Column="6" TopLine="192"/>
+      </Position>
+      <Position>
+        <Filename Value="edit.pas"/>
+        <Caret Line="53" Column="21" TopLine="53"/>
+      </Position>
+      <Position>
+        <Filename Value="edit.pas"/>
+        <Caret Line="54" Column="21" TopLine="54"/>
+      </Position>
+      <Position>
+        <Filename Value="edit.pas"/>
+        <Caret Line="61" Column="21" TopLine="22"/>
+      </Position>
+      <Position>
+        <Filename Value="edit.pas"/>
+        <Caret Line="58" Column="44" TopLine="22"/>
+      </Position>
+      <Position>
+        <Filename Value="edit.pas"/>
+        <Caret Line="59" Column="34" TopLine="23"/>
+      </Position>
+      <Position>
+        <Filename Value="edit.pas"/>
+        <Caret Line="64" Column="19" TopLine="29"/>
+      </Position>
+      <Position>
+        <Filename Value="main.pas"/>
+        <Caret Line="113" Column="23" TopLine="80"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+  <Debugging>
+    <BreakPoints>
+      <Item>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="edit.pas"/>
+        <Line Value="4"/>
+      </Item>
+    </BreakPoints>
+  </Debugging>
+</CONFIG>

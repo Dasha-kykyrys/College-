@@ -1,0 +1,271 @@
+object fCalculator: TfCalculator
+  Left = 490
+  Height = 548
+  Top = 222
+  Width = 499
+  BorderStyle = bsDialog
+  Caption = 'fCalculator'
+  ClientHeight = 548
+  ClientWidth = 499
+  Color = 12180210
+  DesignTimePPI = 120
+  LCLVersion = '3.2.0.0'
+  object Label1: TLabel
+    Left = 0
+    Height = 82
+    Top = 8
+    Width = 499
+    Alignment = taCenter
+    AutoSize = False
+    Caption = 'Калькулятор простых и '#13#10'сложных процентов.'
+    Color = 9818361
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clMaroon
+    Font.Height = -33
+    Font.Name = 'Small Fonts'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object eMoney: TEdit
+    Left = 216
+    Height = 30
+    Top = 112
+    Width = 208
+    Alignment = taRightJustify
+    AutoSize = False
+    Color = 14610426
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clMaroon
+    Font.Height = -18
+    Font.Name = 'Small Fonts'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    MaxLength = 20
+    ParentFont = False
+    TabOrder = 0
+    OnKeyPress = eMoneyKeyPress
+  end
+  object Label2: TLabel
+    Left = 8
+    Height = 30
+    Top = 112
+    Width = 201
+    Align = alCustom
+    Caption = 'Исходная сумма'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clMaroon
+    Font.Height = -25
+    Font.Name = 'Small Fonts'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 440
+    Height = 30
+    Top = 112
+    Width = 53
+    Caption = 'руб.'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clMaroon
+    Font.Height = -25
+    Font.Name = 'Small Fonts'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 8
+    Height = 30
+    Top = 248
+    Width = 134
+    AutoSize = False
+    Caption = 'Проценты'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clMaroon
+    Font.Height = -25
+    Font.Name = 'Small Fonts'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 8
+    Height = 64
+    Top = 160
+    Width = 134
+    AutoSize = False
+    Caption = 'Временной '#13#10'период'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clMaroon
+    Font.Height = -25
+    Font.Name = 'Small Fonts'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object CBTime: TComboBox
+    Left = 272
+    Height = 28
+    Top = 176
+    Width = 216
+    Color = 14610426
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clMaroon
+    Font.Height = -18
+    Font.Name = 'Small Fonts'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ItemHeight = 22
+    ItemIndex = 0
+    Items.Strings = (
+      'Месяцы'
+      'Года'
+    )
+    ParentFont = False
+    Style = csOwnerDrawFixed
+    TabOrder = 1
+    Text = 'Месяцы'
+  end
+  object seProcent: TSpinEdit
+    Left = 168
+    Height = 30
+    Top = 248
+    Width = 80
+    Alignment = taRightJustify
+    AutoSize = False
+    Color = 14610426
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clMaroon
+    Font.Height = -18
+    Font.Name = 'Small Fonts'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    MaxValue = 100
+    ParentFont = False
+    TabOrder = 2
+  end
+  object CBTypeProcent: TComboBox
+    Left = 272
+    Height = 28
+    Top = 248
+    Width = 216
+    AutoSize = False
+    Color = 14610426
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clMaroon
+    Font.Height = -18
+    Font.Name = 'Small Fonts'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ItemHeight = 22
+    ItemIndex = 0
+    Items.Strings = (
+      'Простые проценты'
+      'Сложные проценты'
+    )
+    ParentFont = False
+    Style = csOwnerDrawFixed
+    TabOrder = 3
+    Text = 'Простые проценты'
+  end
+  object seDate: TSpinEdit
+    Left = 168
+    Height = 30
+    Top = 176
+    Width = 80
+    Alignment = taRightJustify
+    Color = 14610426
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clMaroon
+    Font.Height = -18
+    Font.Name = 'Small Fonts'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    MaxValue = 2000
+    ParentFont = False
+    TabOrder = 4
+  end
+  object bbCalculate: TBitBtn
+    Left = 272
+    Height = 38
+    Top = 304
+    Width = 182
+    Caption = 'Вычислить'
+    Color = 14610426
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clMaroon
+    Font.Height = -18
+    Font.Name = 'Small Fonts'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    OnClick = bbCalculateClick
+    ParentFont = False
+    TabOrder = 5
+  end
+  object mAnswer: TMemo
+    Left = 8
+    Height = 137
+    Top = 400
+    Width = 480
+    Color = 14610426
+    Enabled = False
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -25
+    Font.Name = 'Small Fonts'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Lines.Strings = (
+      ''
+    )
+    ParentFont = False
+    TabOrder = 6
+  end
+  object mTitle: TMemo
+    Left = 8
+    Height = 33
+    Top = 360
+    Width = 480
+    Alignment = taCenter
+    Color = 14610426
+    Enabled = False
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Height = -22
+    Font.Name = 'Small Fonts'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 7
+  end
+  object bbClear: TBitBtn
+    Left = 48
+    Height = 38
+    Top = 304
+    Width = 182
+    Caption = 'Очистить'
+    Color = 14610426
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clMaroon
+    Font.Height = -18
+    Font.Name = 'Small Fonts'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 8
+  end
+end
